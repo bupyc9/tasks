@@ -1,6 +1,6 @@
 <?php
 
-function binarySearch($needle, array $haystack) {
+function binary_search($needle, array $haystack) {
     $left = 0;
     $right = count($haystack) - 1;
 
@@ -24,4 +24,4 @@ function binarySearch($needle, array $haystack) {
 $haystack = [-1, 7, 3, 5, 4, 6, 2, 8];
 sort($haystack);
 
-echo binarySearch(-1, $haystack);
+echo binary_search(-1, $haystack);
